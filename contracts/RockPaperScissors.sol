@@ -1,11 +1,14 @@
 // contracts/ERC20Token.sol
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.7.0 <0.9.0;
+pragma solidity ^0.8.9;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 // Код не мой
 // https://github.com/ojroques/ethereum-rockpaperscissors/blob/master/rockpaperscissors.sol
 
-contract RockPaperScissors {
+
+contract RockPaperScissors is ERC20 {
 
     enum Stage {
         Waiting,
@@ -37,6 +40,11 @@ contract RockPaperScissors {
     
     Game public game;
     Stage public stage;
+
+    
+    constructor(uint256 initialSupply) ERC20("RockPaperScissors", "RPS") {
+        _mint(msg.sender, initialSupply * (10**18));
+    }
 
 
     /*

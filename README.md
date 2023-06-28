@@ -10,3 +10,4 @@
 ### СмК "Камень-ножницы-бумага"
 - contracts/RockPaperScissors.sol
 https://github.com/ojroques/ethereum-rockpaperscissors/tree/master#description
+СмК: 0xCce4789fDAFF4Fc625D6D40B45B1FA1679E63C88
