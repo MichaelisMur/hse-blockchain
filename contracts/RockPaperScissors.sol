@@ -1,6 +1,9 @@
+// contracts/ERC20Token.sol
+// SPDX-License-Identifier: MIT
 pragma solidity >=0.7.0 <0.9.0;
 
 // Код не мой
+// https://github.com/ojroques/ethereum-rockpaperscissors/blob/master/rockpaperscissors.sol
 
 contract RockPaperScissors {
 
