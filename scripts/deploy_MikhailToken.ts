@@ -36,7 +36,7 @@ async function main() {
   // const totalSupply = await token.totalSupply();
   // fromWei(totalSupply)
 
-  // await token.transfer(toAddress, toWei('0.001'))
+  // await token.transfer(toAddress, toWei('10'))
 
   // const ownerBalance = await token.balanceOf(owner);
   // fromWei(ownerBalance);
