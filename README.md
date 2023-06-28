@@ -6,3 +6,7 @@
 ### Взаимодействие со смарт-контрактами
 - Разместил обновленный СмК в сети Sepolia: 0x086eF2F7B6e191455CFA40c5C27D4333a64dcf28
 Использовал снова Sepolia, потому что не удалось пополнить аккаунт в сети Goerli
+
+### СмК "Камень-ножницы-бумага"
+- contracts/RockPaperScissors.sol
+https://github.com/ojroques/ethereum-rockpaperscissors/tree/master#description
